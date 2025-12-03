@@ -1,35 +1,45 @@
 # MSBA 503 – Computer Vision Take-Home Assignment
 
-This project compares two deep learning object detection models — YOLOv8n and Faster R-CNN — across a set of 10 images. I evaluated each model on three metrics:
+This project compares the performance of two deep learning object detection models — **YOLOv8n** and **Faster R-CNN** — using a set of 10 images. Each model was evaluated on three key metrics:
 
-Number of objects detected
+- **Number of objects detected**
+- **Average confidence score**
+- **Inference time**
 
-Average confidence score
+All images were collected manually, and the outputs from both models were stored in a pandas DataFrame and summarized into a comparison table.
 
-Inference time
+---
 
-I collected the images myself and ran both models on each image. The results were stored in a pandas DataFrame and aggregated into a summary table for comparison.
+## 🔍 Models Used
 
-Models Used
+### **YOLOv8n (Ultralytics)**
+- Fast, single-stage object detector optimized for real-time performance  
+- Lightweight and efficient  
 
-YOLOv8n (Ultralytics) – a fast single-stage detector
+### **Faster R-CNN (torchvision)**
+- Two-stage detector that is slower but often more detailed  
+- Produces high-quality bounding boxes at the cost of longer inference times  
 
-Faster R-CNN (torchvision) – a slower but more detailed two-stage detector
+---
 
-Additional Feature Extraction
+## 🎨 Additional Feature Extraction (Part A-ii)
 
-For Part A(ii), I also extracted the average RGB color values from each image using simple image processing. This provided basic scene characteristics separate from deep learning.
+In addition to object detection, I extracted the **average RGB color values** from each image using basic image processing. This provides a simple, non-deep-learning way to describe scene characteristics.
 
-Files
+---
 
-msba503_takehome.ipynb – main notebook with code and outputs
+## 📁 Files Included
 
-Images are not uploaded to GitHub (per assignment instructions)
+- **`msba503_takehome.ipynb`** — Main notebook containing the full workflow, model execution, and outputs  
+- **Images are not uploaded** (per assignment instructions)
 
-How to Run
+---
 
-Upload your own images into a folder
+## ▶️ How to Run the Notebook
 
-Update the image_dir path
+1. Upload your own images into a folder  
+2. Update the `image_dir` path in the notebook to point to your image folder  
+3. Run the notebook from top to bottom  
 
-Run the notebook from top to bottom
+---
+
