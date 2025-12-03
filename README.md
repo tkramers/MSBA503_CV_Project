@@ -1,6 +1,4 @@
-# MSBA503_CV_Project
-
-MSBA 503 – Computer Vision Take-Home Assignment
+# MSBA 503 – Computer Vision Take-Home Assignment
 
 This project compares two deep learning object detection models — YOLOv8n and Faster R-CNN — across a set of 10 images. I evaluated each model on three metrics:
 
