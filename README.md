@@ -10,7 +10,7 @@ All images were collected manually, and the outputs from both models were stored
 
 ---
 
-## 🔍 Models Used
+## Models Used
 
 ### **YOLOv8n (Ultralytics)**
 - Fast, single-stage object detector optimized for real-time performance  
@@ -22,20 +22,19 @@ All images were collected manually, and the outputs from both models were stored
 
 ---
 
-## 🎨 Additional Feature Extraction (Part A-ii)
+## Additional Feature Extraction (Part A-ii)
 
 In addition to object detection, I extracted the **average RGB color values** from each image using basic image processing. This provides a simple, non-deep-learning way to describe scene characteristics.
 
 ---
 
-## 📁 Files Included
+## Files Included
 
 - **`msba503_takehome.ipynb`** — Main notebook containing the full workflow, model execution, and outputs  
-- **Images are not uploaded** (per assignment instructions)
 
 ---
 
-## ▶️ How to Run the Notebook
+## How to Run the Notebook
 
 1. Upload your own images into a folder  
 2. Update the `image_dir` path in the notebook to point to your image folder  
